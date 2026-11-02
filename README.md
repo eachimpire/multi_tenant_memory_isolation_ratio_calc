@@ -1,11 +1,11 @@
-# infergw_jd201
+# multi_tenant_memory_isolation_ratio_calc
 
 **算出推理网关架构师·多租户的显存隔离里各项的占比与比值。**
 
-`infergw_jd201` —— 从输入中抽取数值，计算推理网关架构师·多租户的显存隔离相关的比值与占比，分母为零时明确报错
+`multi_tenant_memory_isolation_ratio_calc` —— 从输入中抽取数值，计算推理网关架构师·多租户的显存隔离相关的比值与占比，分母为零时明确报错
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`infergw_jd201.py` 拷走就能用
+- 单文件，`multi_tenant_memory_isolation_ratio_calc.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install eachimpire-infergw_jd201
+pip install eachimpire-multi_tenant_memory_isolation_ratio_calc
 ```
 
 装完直接用命令名调用：
 
 ```bash
-infergw_jd201 --help
+multi_tenant_memory_isolation_ratio_calc --help
 ```
 
-也可以不用安装，直接把 `infergw_jd201.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `multi_tenant_memory_isolation_ratio_calc.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ infergw_jd201 --help
 ## 用法
 
 ```bash
-python infergw_jd201.py --file input.txt
-python infergw_jd201.py --text "示例内容"
-python infergw_jd201.py --file input.txt --json
+python multi_tenant_memory_isolation_ratio_calc.py --file input.txt
+python multi_tenant_memory_isolation_ratio_calc.py --text "示例内容"
+python multi_tenant_memory_isolation_ratio_calc.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python infergw_jd201.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_infergw_jd201.py
+python test_multi_tenant_memory_isolation_ratio_calc.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_infergw_jd201.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/eachimpire/infergw_jd201>
+- GitHub 仓库：<https://github.com/eachimpire/multi_tenant_memory_isolation_ratio_calc>
 
 ---
 
@@ -79,7 +79,7 @@ python test_infergw_jd201.py
 eachimpire 做推理网关架构师·多租户的显存隔离相关的问题，方向对标英伟达的专家推理网关架构师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://eachimpire.github.io>
-- 仓库：<https://github.com/eachimpire/infergw_jd201>
+- 仓库：<https://github.com/eachimpire/multi_tenant_memory_isolation_ratio_calc>
 
 ## 许可
 

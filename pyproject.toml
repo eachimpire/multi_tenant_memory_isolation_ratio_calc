@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "eachimpire-infergw_jd201"
+name = "eachimpire-multi_tenant_memory_isolation_ratio_calc"
 version = "0.1.0"
 description = "从输入中抽取数值，计算推理网关架构师·多租户的显存隔离相关的比值与占比，分母为零时明确报错"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://eachimpire.github.io"
-Repository = "https://github.com/eachimpire/infergw_jd201"
-Issues = "https://github.com/eachimpire/infergw_jd201/issues"
+Repository = "https://github.com/eachimpire/multi_tenant_memory_isolation_ratio_calc"
+Issues = "https://github.com/eachimpire/multi_tenant_memory_isolation_ratio_calc/issues"
 
 [project.scripts]
-infergw_jd201 = "infergw_jd201:main"
+multi_tenant_memory_isolation_ratio_calc = "multi_tenant_memory_isolation_ratio_calc:main"
 
 [tool.setuptools]
-py-modules = ["infergw_jd201"]
+py-modules = ["multi_tenant_memory_isolation_ratio_calc"]
